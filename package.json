@@ -1,10 +1,10 @@
 {
   "name": "helloworld",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/srinjoy-2005/webpage-loader/issues"
   },
-  "homepage": "https://github.com/srinjoy-2005/webpage-loader#readme"
+  "homepage": "https://github.com/srinjoy-2005/webpage-loader#readme",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "commander": "^14.0.0",
+    "express": "^5.1.0",
+    "node": "^22.16.0",
+    "path": "^0.12.7"
+  }
 }
